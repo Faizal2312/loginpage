@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: monospace;
+}
+
+h1 {
+  margin: 45px 0 50px 0;
+}
+h1:hover {
+  cursor: default;
+}
+
+.box {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  /* background-color: #19403b; */
+}
+
+.card {
+  display: flex;
+  height: 50vh;
+  width: 25vw;
+
+  border-radius: 20px;
+  background-color: #f3f3f3;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 7px 10px -3px gray;
+}
+
+.row-1 input {
+  width: 19vw;
+  /* margin: 10px 0; */
+
+  padding: 10px;
+  border-radius: 10px;
+  /* border-style: 1px solid #ccc; */
+
+  border: none;
+}
+.row-2 p:hover {
+  cursor: pointer;
+}
+.row-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.username {
+  margin-bottom: 29px;
+}
+
+.sb-btn {
+  margin: 13px 0;
+  padding: 13px 23px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  box-shadow: 6px 3px 18px -3px gray;
+  /* font-size: 10px; */
+}
+.sb-btn:hover {
+  cursor: pointer;
+}
